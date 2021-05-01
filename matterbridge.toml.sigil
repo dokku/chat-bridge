@@ -9,6 +9,7 @@
     Token                  = "{{ var "SLACK_TOKEN" }}"
     PrefixMessagesWithNick = false
     RemoteNickFormat       = "{NICK}"
+    IconURL                = "https://avatars.dicebear.com/api/gridy/{NICK}.svg?m=6&colorful=1&deterministic=1"
 
 [general]
 RemoteNickFormat="<{NICK}> "

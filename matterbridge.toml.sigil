@@ -1,0 +1,26 @@
+[irc]
+    [irc.freenode]
+    Server   = "irc.freenode.net:6667"
+    Nick     = "dokku-bot"
+    Password = "{{ var "IRC_PASSWORD" }}"
+
+[slack]
+    [slack.dokku]
+    Token                  = "{{ var "SLACK_TOKEN" }}"
+    PrefixMessagesWithNick = false
+    RemoteNickFormat       = "{NICK}"
+
+[general]
+RemoteNickFormat="<{NICK}> "
+
+[[gateway]]
+    name   = "dokku"
+    enable = true
+
+    [[gateway.inout]]
+    account = "irc.freenode"
+    channel = "#dokku"
+
+    [[gateway.inout]]
+    account = "slack.dokku"
+    channel = "dokku"

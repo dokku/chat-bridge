@@ -1,8 +1,9 @@
 [irc]
     [irc.freenode]
-    Server   = "irc.freenode.net:6667"
-    Nick     = "dokku-bot"
-    Password = "{{ var "IRC_PASSWORD" }}"
+    Server      = "irc.freenode.net:6667"
+    Nick        = "dokku-bot"
+    Password    = "{{ var "IRC_PASSWORD" }}"
+    IgnoreNicks = "Not-4ecb"
 
 [slack]
     [slack.dokku]

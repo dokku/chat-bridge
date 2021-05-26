@@ -6,10 +6,12 @@
     IgnoreNicks = "Not-4ecb"
 
     [irc.libera]
-    Server      = "irc.libera.chat:6667"
+    Server      = "irc.libera.chat:6697"
     Nick        = "dokku-bot"
     Password    = "{{ var "IRC_PASSWORD" }}"
     IgnoreNicks = "Not-4ecb"
+    UseSASL     = true
+    UseTLS      = false
 
 [slack]
     [slack.dokku]

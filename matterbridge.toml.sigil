@@ -5,6 +5,12 @@
     Password    = "{{ var "IRC_PASSWORD" }}"
     IgnoreNicks = "Not-4ecb"
 
+    [irc.libera]
+    Server      = "irc.libera.chat:6697"
+    Nick        = "dokku-bot"
+    Password    = "{{ var "IRC_PASSWORD" }}"
+    IgnoreNicks = "Not-4ecb"
+
 [slack]
     [slack.dokku]
     Token                  = "{{ var "SLACK_TOKEN" }}"
@@ -21,6 +27,10 @@ IconURL          = "https://avatars.dicebear.com/api/gridy/{NICK}.svg?m=6&colorf
 
     [[gateway.inout]]
     account = "irc.freenode"
+    channel = "#dokku"
+
+    [[gateway.inout]]
+    account = "irc.libera"
     channel = "#dokku"
 
     [[gateway.inout]]

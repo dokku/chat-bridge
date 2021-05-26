@@ -11,7 +11,7 @@
     Password    = "{{ var "IRC_PASSWORD" }}"
     IgnoreNicks = "Not-4ecb"
     UseSASL     = true
-    UseTLS      = false
+    UseTLS      = true
 
 [slack]
     [slack.dokku]

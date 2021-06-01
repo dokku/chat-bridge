@@ -11,7 +11,7 @@
     Password         = "{{ var "IRC_PASSWORD" }}"
     NickServNick     = "dokku-bot"
     NickServPassword = "{{ var "IRC_PASSWORD" }}"
-    IgnoreNicks      = "^Not- ^not- Not not"
+    IgnoreNicks      = "^Not-* ^not-* Not not"
     UseSASL          = true
     UseTLS           = true
 

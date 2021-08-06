@@ -2,7 +2,6 @@
 
 main() {
   sigil -f matterbridge.toml.sigil > /app/matterbridge.toml
-  cat /app/matterbridge.toml
   /bin/matterbridge -conf /app/matterbridge.toml
 }
 

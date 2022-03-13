@@ -12,9 +12,10 @@
 
 [slack]
     [slack.dokku]
-    Token                  = "{{ var "SLACK_TOKEN" }}"
     PrefixMessagesWithNick = false
+    PreserveThreading      = true
     RemoteNickFormat       = "{NICK}"
+    Token                  = "{{ var "SLACK_TOKEN" }}"
 
 [general]
 RemoteNickFormat = "<{NICK}> "

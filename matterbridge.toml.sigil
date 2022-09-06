@@ -21,7 +21,7 @@
     [discord.dokku]
     AutoWebhooks      = true
     PreserveThreading = true
-    RemoteNickFormat  = "{NICK}"
+    RemoteNickFormat  = "{NICK}: "
     Server            = "{{ var "DISCORD_SERVER" }}"
     Token             = "{{ var "DISCORD_TOKEN" }}"
 

@@ -43,4 +43,4 @@ IconURL          = "https://avatars.dicebear.com/api/gridy/{NICK}.svg?m=6&colorf
 
     [[gateway.inout]]
     account = "discord.dokku"
-    channel = "general"
+    channel = "ID:952684157123837955"

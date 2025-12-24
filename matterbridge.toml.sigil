@@ -33,9 +33,9 @@ IconURL          = "https://avatars.dicebear.com/api/gridy/{NICK}.svg?m=6&colorf
     name   = "dokku"
     enable = true
 
-    [[gateway.inout]]
-    account = "irc.libera"
-    channel = "#dokku"
+    # [[gateway.inout]]
+    # account = "irc.libera"
+    # channel = "#dokku"
 
     [[gateway.inout]]
     account = "slack.gliderlabs"
